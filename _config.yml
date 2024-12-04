@@ -54,53 +54,32 @@ scroll_reveal: true
 # navigation config
 nav:
   # the title displays in the upper left corner which won't change
-  title: Blog
+  title: JasonW's Tech Blog
   # the items displays in the upper right corner
   items:
     # these items will display as a link
-    Archives: /archives
-    Friends: /friends
-    Projects: /projects
     About: /about
+    All Posts: /all-posts
+    Projects: /projects
     # these will be automatically be an icon
-    GitHub: https://github.com/MrWillCom
-    CodePen: https://codepen.io/mrwillcom
-    Patreon: https://www.patreon.com/MrWillCom
-    Mastodon: https://noc.social/@MrWillCom
-    Discord: https://discord.gg/UKuFDjcfY8
+    LinkedIn: https://www.linkedin.com/in/jason-jl-wang/
+    GitHub: https://github.com/JasonW404
     Search: /search
 
 # footer items
 footer:
-  # the title
+
   Blog:
-    # the items after the title, display as links
-    Blog: /
-    Archives: /archives
-    Tags: /tags
-    Categories: /categories
-    Search: /search
-    Friends: /friends
-    Projects: /projects
-    Resume: /resume
-    About: /about
-    RSS: /atom.xml
-  # also the title
+    All Posts: /all-posts
+    Tags: /all-tags
+    # Projects: /projects
+
   Projects:
-    # the items
-    RSA CLI: https://github.com/MrWillCom/rsa-cli
-    Hexo Theme Cupertino: https://github.com/MrWillCom/hexo-theme-cupertino
-    A Calendar: https://github.com/MrWillCom/a-calendar
-    Auto Mirroring Bucket: https://github.com/MrWillCom/auto-mirroring-bucket
-  # the title
+    Chatbot: https://github.com/JasonW404/chatbot
+
   Me:
-    # items
-    GitHub: https://github.com/MrWillCom
-    CodePen: https://codepen.io/mrwillcom
-    Patreon: https://www.patreon.com/MrWillCom
-    Mastodon: https://noc.social/@MrWillCom
-    Discord: https://discord.gg/UKuFDjcfY8
-    Email: mailto:mr.will.com@outlook.com
+    About: /about
+    Resume: /resume
 
 # footer extra description
 # footer_extra_description: something will be shown at the bottom of the footer

@@ -1,0 +1,10 @@
+<div class="tags-list">
+    <h2>All Tags</h2>
+    <ul>
+        <% hexo.locals.get('tags').each(function(tag) { %>
+            <li><a href="<%= url_for('tags/' + tag.name) %>">
+                    <%= tag.name %>
+                </a></li>
+            <% }) %>
+    </ul>
+</div>

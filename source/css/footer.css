@@ -60,6 +60,7 @@ footer .color-scheme-toggle {
     border: 1px solid var(--blue);
     margin-top: 16px;
     width: max-content;
+    max-width: fit-content;
 }
 
 footer .color-scheme-toggle label {
@@ -86,4 +87,34 @@ footer .color-scheme-toggle label span {
 footer .color-scheme-toggle label input:checked+span {
     color: var(--white-txt-on-blue-bg);
     background-color: var(--blue);
+}
+
+footer .footer-row {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* Prevent items from wrapping */
+    /* padding: 10px; */
+}
+
+footer .footer-item {
+    flex: 1;
+    /* Make items share equal width (adjust as needed) */
+}
+
+footer .footer-left {
+    text-align: left;
+    /* Align the first item to the left */
+}
+
+footer .footer-center {
+    text-align: center;
+    /* Center the second item */
+}
+
+footer .footer-right {
+    text-align: right;
+    /* Align the third item to the right */
 }
